@@ -22,13 +22,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'phl-city-limits',
+                    layer: 'guide',
                     opacity: .45
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'phl-city-limits',
+                    layer: 'guide',
                     opacity: 0
                 }
             ]
@@ -74,7 +74,12 @@ var config = {
                     opacity: 1
                 }
             ],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                    layer: 'okinawa',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'kyushu',
