@@ -46,13 +46,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'wissahickon',
+                    layer: '5mi',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'wissahickon',
+                    layer: '5mi',
                     opacity: 0
                 }
             ]
@@ -70,7 +70,7 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'phl-bike-network',
+                    layer: 'okinawa',
                     opacity: 1
                 }
             ],
@@ -89,13 +89,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'indego-stations',
+                    layer: 'kyushu',
                     opacity: 0.8
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'indego-stations',
+                    layer: 'kyushu',
                     opacity: 0
                 }
             ]
@@ -113,13 +113,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'belmont',
+                    layer: 'shikoku',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'belmont',
+                    layer: 'shikoku',
                     opacity: 0
                 }
             ]
@@ -137,13 +137,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'belmont',
+                    layer: 'honshu',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'belmont',
+                    layer: 'honshu',
                     opacity: 0
                 }
             ]
@@ -161,13 +161,13 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'pennypack',
+                    layer: 'hokkaido',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'pennypack',
+                    layer: 'hokkaido',
                     opacity: 0
                 }
             ]
